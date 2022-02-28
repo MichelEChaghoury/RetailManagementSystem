@@ -9,10 +9,11 @@ namespace RmsWpfDesktopClient
 {
     public class Bootstrapper : BootstrapperBase
     {
-        private readonly SimpleContainer _container = new SimpleContainer();
+        private readonly SimpleContainer _container;
 
         public Bootstrapper()
         {
+            _container = new SimpleContainer();
             Initialize();
         }
 
