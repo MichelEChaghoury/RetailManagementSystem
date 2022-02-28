@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMSWebServices", "RMSWebServices\RMSWebServices.csproj", "{92AFC754-5056-4302-A2CC-8DEC715DA84B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RetailManagementSystemDB", "RetailManagementSystemDB\RetailManagementSystemDB.sqlproj", "{3DB869DA-92E4-497D-9CA0-85EE3E840903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmsWpfDesktopClient", "RmsWpfDesktopClient\RmsWpfDesktopClient.csproj", "{5AE2C72B-57A4-4C68-AA46-5D595CD84A8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{92AFC754-5056-4302-A2CC-8DEC715DA84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92AFC754-5056-4302-A2CC-8DEC715DA84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92AFC754-5056-4302-A2CC-8DEC715DA84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB869DA-92E4-497D-9CA0-85EE3E840903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB869DA-92E4-497D-9CA0-85EE3E840903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB869DA-92E4-497D-9CA0-85EE3E840903}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3DB869DA-92E4-497D-9CA0-85EE3E840903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB869DA-92E4-497D-9CA0-85EE3E840903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB869DA-92E4-497D-9CA0-85EE3E840903}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5AE2C72B-57A4-4C68-AA46-5D595CD84A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE2C72B-57A4-4C68-AA46-5D595CD84A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE2C72B-57A4-4C68-AA46-5D595CD84A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE2C72B-57A4-4C68-AA46-5D595CD84A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
